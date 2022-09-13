@@ -1,0 +1,106 @@
+#features {
+
+    position: relative;
+    overflow: hidden;
+    &::before {
+        content: "";
+        width: 961px;
+        height: 961px;
+        margin-top: 620px;
+        position: absolute;
+        background-image: url(/image/feat_circle.png);
+        z-index: 0;
+        animation-name: example;
+        animation-duration: 90s;
+        animation-iteration-count: infinite;
+
+        @keyframes example {
+            0% {
+                transform: rotate(0deg)
+            }
+
+            100% {
+                transform: rotate(360deg)
+            }
+        }
+    }
+
+    width: 100%;
+    height: 570px;
+    background-color: #F0EFF5;
+    margin-top: 290px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+    .note {
+        border-radius: 5px;
+        justify-content: center;
+        align-items: center;
+        width: 190px;
+        height: 30px;
+        line-height: 20px;
+        margin: 40px 0 15px;
+        padding: 5px 12px;
+        background-color: #F7F4FF;
+        border-radius: 5px;
+
+        span {
+            font-weight: 490;
+            color: #5842BC;
+            font-size: 15px;
+        }
+
+    }
+    .text-feature{
+        h2{
+            font-size: 45px;
+            margin-bottom: 60px;
+            color:#000;
+            font-weight: 700;
+            span{
+                background: linear-gradient(90deg,#501E9C 0%,#8169F1 40%,#A44CEE 75%,#FF847F 100%);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+        }
+        
+    }
+    .feature-item{
+       
+        width: 100%;
+        .images-line{
+            justify-content: space-around;
+        }
+        .img{
+            display: flex;
+            justify-content: center;
+        }
+        p{
+            text-align: center;
+        }
+        .image-colunu{
+            &>a{
+                position: relative;
+            }
+            .new-image{
+                background-color: #D1E7DD;
+                border-radius: 50% ;
+                text-align: center;
+                width: 40px;
+                position: absolute;
+                top: 0;
+                right: 23px;
+                span{
+                    color: #198754;
+                    font-size: 10px;
+                    font-weight: 700;
+                    text-transform: uppercase;
+                    line-height: 40px;
+                }
+            }
+        }
+    }
+    
+}

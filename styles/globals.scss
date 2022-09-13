@@ -1,0 +1,46 @@
+@import '../component/layout/header/header.scss';
+@import '../component/layout/navbar/navbar.scss';
+@import '../component/web/manset/manset.scss';
+@import '../component/web/installiation/installiation.scss';
+@import '../component/web/wave/wave.scss';
+@import '../component/web/features/features.scss';
+@import '../component/web/creative/creative.scss';
+@import '../component/web/Note-Management/Note-Management.scss';
+@import '../component/web/Dark-Theme/Dark-Theme.scss';
+@import '../component/web/Popular-Apps/Popular-Apps.scss';
+
+@import '../component/web/stori/stori.scss';
+@import '../component/web/customer/customer.scss';
+@import '../component/web/line-element/line-element.scss';
+@import '../component/web/Price/Price.scss';
+@import '../component/web/support/support.scss';
+@import '../component/web/community/community.scss';
+
+@import '../component/web/footer/footer.scss';
+
+@import './slider.scss';
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+  button{
+    outline: none;
+  }
+ 
+}
+
+.row{
+  padding: 0;
+}

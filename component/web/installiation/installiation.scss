@@ -1,0 +1,46 @@
+.installation{
+    width: 100%;
+    height: 350px;
+    margin-top: -60px;
+    background: #F0EFF5;
+    position: absolute;
+   
+    .line{
+        height: 350px;
+        border-bottom: 1px solid #9994;
+        .installation-featured{
+            margin-top: 80px;
+            padding: 15px;
+            display: flex;
+            justify-content: center;
+            font-weight: 700;
+            font-style: normal;
+            font-size: 20px;
+            span{
+                color: #5842BC;
+                margin-right: 7px;
+            }
+        }
+        
+        .col{
+            display: flex;
+            margin-top: 60px;
+            justify-content: center;
+            align-items: center;
+            
+        }
+    }
+   
+    span{
+        display: inline!important;
+    }
+    img{
+        cursor: pointer;
+        filter: brightness(100%) contrast(0%) saturate(100%) blur(0) hue-rotate(0deg);
+        transition: 0.2s ease-in-out;
+        
+        &:hover{
+            filter: none
+        }
+    }
+}

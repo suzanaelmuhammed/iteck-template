@@ -1,0 +1,139 @@
+#Note-Management {
+    padding: 10;
+    background: white;
+    overflow: hidden;
+
+    .note-managment-part {
+        padding: 30px 0 20px 0;
+
+        .note-managment-info {
+            margin-right: 12%;
+
+            .note-managment-baslik {
+                height: 35px;
+                width: 250px;
+                margin-bottom: 20px;
+                background: #F7F4FF;
+                border-radius: 5px;
+                padding: 5px 10px;
+                line-height: 1.4;
+
+                p {
+                    color: #5842BC;
+                    font-size: 18px;
+                }
+            }
+
+            .note-managment-Focus-info {
+                margin-bottom: 30px;
+                font-size: 40px;
+                font-weight: 700;
+                line-height: 1.3em;
+
+                span {
+                    background: linear-gradient(90deg, #501E9C 0%, #8169F1 40%, #A44CEE 75%, #FF847F 100%);
+                    background-clip: text;
+                    color: transparent;
+                }
+
+            }
+
+            .note-managment-detail {
+                margin-bottom: 40px;
+                p {
+                    color: #212529;
+                    font-size: 16px;
+                    line-height: 2em;
+                }
+            }
+
+            .note-managment-setting {
+                padding: 0;
+                margin: 0;
+
+                .ant-space-item {
+                    margin-right: 57px;
+                }
+
+                &.ant-dropdown-trigger ant-dropdown-open {
+                    .ant-dropdown-trigger {
+                        //color: red;
+                        padding: 15px 15px 10px 15px;
+                    }
+                }
+
+                .note-managment-menu {
+                    .accordion-item {
+                        border: none;
+                        cursor: pointer;
+                        button{
+                            border-radius: 7px 7px 0 0;
+                            padding: 15px 15px 10px 15px;
+                            font-weight: 700;
+                            font-size: 14px;
+                           
+                        }
+
+                        button:not(.collapsed) {
+                            background-color: #F4F2FB;
+                            border-radius: 7px 7px 0 0;
+                            color: #4a00e1;
+                            padding: 15px 15px;
+                         }
+                        .accordion-body {
+                            background-color: #F4F2FB;
+                            font-size: 13px;
+                            padding: 0 20px 30px 20px;
+                            border-radius: 0 0 7px 7px;
+                        }
+                    }
+                }
+            }
+
+            .note-managment-btn {
+                margin-top: 50px;
+                background: #5842BC;
+                font-size: 12px;
+                width: 30%;
+                font-weight: 700;
+                line-height: 1.7em;
+                color: #FFF;
+                fill: #FFF;
+                border-radius: 50px;
+                padding: 12px 30px;
+                cursor: pointer;
+
+                &:hover {
+                    background: #A44CEE;
+                }
+
+            }
+        }
+
+        .mobile-animtion {
+            position: relative;
+
+            &::before {
+                content: "";
+                width: 100%;
+                height: 100%;
+                position: absolute;
+                background-image: url(/image/about_s4_bubble2.png);
+                z-index: 0;
+                animation-name: animate;
+                animation-duration: 100s;
+                animation-iteration-count: infinite;
+
+                @keyframes animate {
+                    0% {
+                        transform: rotate((0deg))
+                    }
+
+                    100% {
+                        transform: rotate(360deg)
+                    }
+                }
+            }
+        }
+    }
+}

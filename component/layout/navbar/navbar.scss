@@ -1,0 +1,73 @@
+.navbar {
+    height: 100px;
+    margin-top: -35px;
+    border-radius: 20px 20px 0 0;
+    background: white;
+    justify-content: space-around;
+
+    .nav {
+        margin-left: 80px;
+        gap: 30px;
+        font-weight: 700;
+        font-size: 13px;
+
+        a {
+            color: rgb(97, 96, 96);
+        }
+
+        .hot {
+            position: absolute;
+            font-size: 8px;
+            padding: 2px 5px;
+            border-radius: 3px;
+            top: 14px;
+            text-transform: uppercase;
+            background-color: #f8d7da;
+            border-color: #f5c2c7;
+            color: #dc3545;
+            line-height: 1.7;
+            display: inline-block;
+            font-weight: 600;
+            margin-left: 65px;
+
+            // z-index: 0;
+
+            margin-top: 13px;
+           // margin-left: 40px;
+        }
+    }
+
+    .button-icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: none;
+        border: 1px solid #0002;
+        color: rgb(112, 111, 111);
+        border-radius: 50%;
+        width: 35px;
+        height: 35px;
+        margin-right: 15px;
+        display: flex;
+        align-items: center;
+    }
+
+    .icon {
+        font-size: 13px;
+        color: #000;
+    }
+
+    .button {
+        width: 150px;
+        font-size: 12px;
+        background: none;
+        font-weight: bold;
+        color: black;
+        border: 1px solid #0002;
+        border-radius: 100px;
+
+        span {
+            margin-right: 2px;
+        }
+    }
+}

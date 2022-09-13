@@ -1,0 +1,244 @@
+#customer {
+    margin-top: -50px;
+    background: #fff;
+    padding: 110px 0 80px 0;
+    z-index: 12;
+    overflow: hidden;
+    border-radius: 30px 30px 0 0;
+
+    .customer {
+        padding: 10px;
+
+        .customer-info {
+            margin-right: 80px;
+
+            .customer-baslik {
+                height: 30px;
+                width: 100px;
+                margin-bottom: 20px;
+                background: #F7F4FF;
+                border-radius: 5px;
+                padding: 5px 10px;
+                line-height: 1.4;
+
+                h2 {
+                    color: #5842BC;
+                    font-size: 14px;
+                }
+            }
+
+            .customer-focus-info {
+                margin-bottom: 30px;
+                font-size: 40px;
+                font-weight: 700;
+                line-height: 1.3em;
+
+                span {
+                    background: linear-gradient(90deg, #501E9C 0%, #8169F1 40%, #A44CEE 75%, #FF847F 100%);
+                    background-clip: text;
+                    color: transparent;
+                }
+            }
+
+            .customer-detail {
+                margin-bottom: 40px;
+
+                p {
+                    color: #212529;
+                    font-size: 15px;
+                    line-height: 2em;
+                }
+            }
+
+            .statik {
+                margin-bottom: 70px;
+
+                .customer-download-setting {
+                    width: 35%;
+                    border-right: 1px solid #9993;
+                    padding: 0 50px 0 0;
+                    float: left;
+
+                    .img {
+                        margin-bottom: 15px;
+                    }
+
+                    .oran {
+                        p {
+                            color: #5842BC;
+                            font-weight: bold;
+                            line-height: 1.4em;
+                            font-size: 30px;
+                        }
+                    }
+
+                    .bilgi {
+                        margin-top: 5px;
+
+                        p {
+                            color: #666;
+                            font-size: 12px;
+                            line-height: 1.7em;
+                        }
+                    }
+                }
+            }
+
+            .customer-reviews-setting {
+                padding-left: 220px;
+                width: 70%;
+
+                .img {
+                    margin-bottom: 15px;
+                }
+
+                .oran {
+                    p {
+                        color: #5842BC;
+                        font-weight: 700;
+                        line-height: 1.4em;
+                        font-size: 30px;
+                    }
+                }
+
+                .bilgi {
+                    margin-top: 5px;
+
+                    p {
+                        color: #666;
+                        font-size: 12px;
+                        line-height: 1.7em;
+                    }
+                }
+            }
+
+            .customer-btn {
+                margin-bottom: 24px;
+
+                .store-btn {
+                    width: 45%;
+                    height: 45px;
+                    background: #5842BC;
+                    border-radius: 50px;
+                    padding: 10px 30px;
+                    font-size: 12px;
+                    font-weight: bold;
+                    line-height: 1.7em;
+                    color: #FFF;
+
+                    &:hover {
+                        background: #A44CEE;
+                    }
+
+                    a:hover {
+                        color: white;
+                    }
+                }
+
+                .play-icon {
+                    cursor: pointer;
+                    .icon {
+                        width: 50px;
+                        height: 50px;
+                        background: #FFF;
+                        color: #5842BC;
+                    }
+                }
+
+                .view-text {
+                    cursor: pointer;
+                    margin-top: 5px;
+                    margin-left: -15px;
+                    color: #212529;
+                    font-size: 12px;
+                    line-height: 1.5em;
+                    font-weight: 700;
+                }
+            }
+        }
+
+        .notification {
+            position: relative;
+
+                .card-1 {
+                    position: relative;
+                    width: 90%;
+                    display: flex;
+                    flex-direction: row;
+                    padding: 25px;
+                    border-radius: 15px;
+                    box-shadow: -4.104px 11.276px 38px 0 rgb(45 42 61 / 10%);
+                    background-color: #fff;
+                    margin-bottom: 20px;
+                }
+                .card-2 {
+                    position: relative;
+                    width: 90%;
+                    display: flex;
+                    flex-direction: row;
+                    border-radius: 15px;
+                    padding: 25px;
+                    margin-left: 50px;
+                    box-shadow: -4.104px 11.276px 38px 0 rgb(45 42 61 / 10%);
+                    background-color: #fff;
+                    margin-bottom: 20px;
+                }
+                .card-3 {
+                    position: relative;
+                    width: 90%;
+                    display: flex;
+                    flex-direction: row;
+                    border-radius: 15px;
+                    padding: 25px;
+                    box-shadow: -4.104px 11.276px 38px 0 rgb(45 42 61 / 10%);
+                    background-color: #fff;
+                    margin-bottom: 20px;
+                    
+                }
+                .img{
+                    margin-right: 20px;
+                    flex-shrink: 0;
+                }
+                .icon{
+                    color: #ffb400;
+                    font-size: 10px;
+                }
+                .mesaj{
+                    font-size: 14px;
+                    line-height: 1.4em;
+                    font-weight: 700;
+                    margin-bottom: 15px;
+                }
+                .name{
+                    font-size: 12px;
+                    line-height: 1.4em;
+                    color: #6c757d!important;
+                }
+
+           
+        &::before {
+            content: "";
+            margin: -80px 0 0 -120px;
+            width: 140%;
+            height: 150%;
+            opacity: .2;
+            position: absolute;
+            background-image: url(/image/contact_globe.svg);
+            z-index: 0;
+            animation-name: animate;
+             animation-duration: 100s;
+            animation-iteration-count: infinite;
+
+            @keyframes animate {
+                0% {
+                    transform: rotate(0deg)
+                }
+
+                100% {
+                    transform: rotate(360deg)
+                }
+            }
+        }
+        }
+    }
+}

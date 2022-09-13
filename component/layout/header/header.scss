@@ -1,0 +1,54 @@
+.header-y {
+    .section-element-header {
+        position: relative;
+        height: 80px;
+        background-image: url(/image/top_nav_s4.png);
+        background-repeat: no-repeat !important;
+        display: flex;
+        justify-content: center;
+        z-index: -1;
+        .header-element {
+            .header-element-wrap {
+                width: 500px;
+                margin-top: 10px;
+                display: flex;
+                flex-direction: row;
+                gap:5px;
+                .header-button {
+                    display: flex;
+                    background: white;
+                    border-radius: 4px;
+                    height: 20px;
+                    justify-content: center;
+                    align-items: center;
+                    
+                    margin-right: 8px;
+                    padding: 0 8px;
+                    span{
+                        font-size: 12px;
+                        font-family: Inter;
+                    }
+                }
+                .header-account{
+                    color:rgb(189, 189, 189);
+                    font-size: 12px;
+                    span{
+                        color:white;
+                        position: relative;
+                        display: inline-block;
+                    }
+                }
+                .header-link{
+                    a{
+                        color:white;
+                        text-decoration: underline;
+                    }
+                    font-size: 12px;
+                    
+                }
+            }
+        }
+    }
+
+   
+}

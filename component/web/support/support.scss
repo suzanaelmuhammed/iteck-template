@@ -1,0 +1,101 @@
+#support {
+    padding: 50px 0 100px 0;
+
+    .support {
+        padding: 10px;
+
+        .support-info {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+
+            .support-baslik {
+                height: 30px;
+                width: 210px;
+                margin-bottom: 20px;
+                background: #F7F4FF;
+                border-radius: 5px;
+                padding: 5px 13px;
+                line-height: 1.4;
+
+                h2 {
+                    color: #5842BC;
+                    font-size: 15px;
+                    font-weight: 450;
+                }
+            }
+
+            .support-focus-info {
+                margin-bottom: 70px;
+                font-size: 40px;
+                font-weight: 750;
+                line-height: 1.3em;
+                color: #000;
+
+                span {
+                    background: linear-gradient(90deg, #501E9C 0%, #8169F1 40%, #A44CEE 75%, #FF847F 100%);
+                    background-clip: text;
+                    color: transparent;
+                }
+            }
+        }
+
+        .support-accordion {
+            .accordion-item {
+                border: none;
+                border-radius: none;
+            }
+            .accordion-item {
+                border: none;
+                cursor: pointer;
+                button{
+                    background-color: #FFF;
+                        color: #212529;
+                        padding: 25px 15px;
+                        font-weight: 700;
+                        font-size: 14px;
+                        border-bottom: 1px solid #9995;
+
+                       
+                }
+                
+
+                button:not(.collapsed) {
+                    background-color: #F4F2FB;
+                    border-radius: none;
+                    padding: 25px 15px;
+                    color: #5842BC;
+                    border: none;
+                 }
+                .accordion-body {
+                    background-color: #F4F2FB;
+                    font-size: 13px;
+                    padding: 0 20px 30px 20px;
+                    border-bottom: 1px solid #9995;
+                }
+            }
+            .support-col-1 {
+                padding: 0 24px 0 19px;
+
+                .support-question {
+                    
+                    .support-accordion-body
+                    {
+                        margin: 0 0 30px;
+                        word-spacing: 1px;
+                    }
+                }
+            }
+            .support-col-2 {
+                padding: 0 24px 0 19px;
+
+                .support-accordion-body
+                    {
+                        margin: 0 0 30px;
+                        word-spacing: 1px;
+                    }
+            }
+        }
+    }
+}

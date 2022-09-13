@@ -1,0 +1,24 @@
+#stori{
+    background: #F0EFF5;
+    height:100vh;
+    overflow: hidden;
+    margin-bottom: 50px;
+    .stori{
+        padding-top: 120px;
+        
+        .strip{
+            position: relative;
+            
+            .image-setting{
+                border-radius: 20px;
+            }
+            .img{
+                margin-top: -435px;
+                left:395px;
+                position: absolute;
+                z-index: 0;
+                overflow: hidden;
+            }
+        }
+    }
+}

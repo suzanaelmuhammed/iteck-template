@@ -1,0 +1,54 @@
+.iteck-image-animation {
+    padding: 0;
+    margin-top: -100px;
+    overflow: hidden;
+    .elementor-widget-container {
+        animation-name: example1;
+        animation-duration: 50s;
+        animation-iteration-count: infinite;
+        position: relative;
+        height: 179px;
+        width: 100%;
+        @keyframes example1 {
+            10% {
+                transform: rotate(5deg)
+            }
+
+            20% {
+                transform: rotate(0deg)
+            }
+
+            30% {
+                transform: rotate(5deg)
+            }
+
+            40% {
+                transform: rotate(0deg)
+            }
+
+            50% {
+                transform: rotate(5deg)
+            }
+
+            60% {
+                transform: rotate(0deg)
+            }
+
+            70% {
+                transform: rotate(5deg)
+            }
+
+            80% {
+                transform: rotate(0deg)
+            }
+
+            90% {
+                transform: rotate(5deg)
+            }
+
+            100% {
+                transform: rotate(0deg)
+            }
+        }
+    }
+}
