@@ -46,9 +46,11 @@
                     border: 1px solid #5842BC;
                     border-radius: 50px;
                     padding: 12px 30px;
-                    &:hover{
+
+                    &:hover {
                         background: #A44CEE;
                         border: #A44CEE;
+                        transition: ease 1s;
                     }
 
                     .icon {
@@ -69,6 +71,7 @@
                     border: 1px solid #5842BC;
                     border-radius: 50px;
                     padding: 12px 30px;
+
                     .icon {
                         font-size: 18px;
                         font-weight: 700;
@@ -77,13 +80,14 @@
                         margin-right: 10px;
                         border-right: 1px solid rgb(56, 56, 56);
                     }
-                    &:hover{
+
+                    &:hover {
                         background: #5842BC;
-                        color:white;
-                        .icon{
+                        color: white;
+                        transition: ease 1s;
+                        .icon {
                             border-right: 1px solid #fff;
                         }
-                       
                     }
                 }
             }
@@ -93,14 +97,16 @@
             .page-list {
                 overflow: hidden;
                 border-bottom: 1px solid #9999;
-                .navbar-logo{
+
+                .navbar-logo {
                     margin-top: 15px;
                 }
+
                 .navbar {
                     background-color: #F0EFF5;
-                    .navbar-link-name{
+                    .navbar-link-name {
                         margin-right: -30px;
-                        padding: 0 10px ;
+                        padding: 0 10px;
                         color: #000;
                         font-size: 13px;
                         font-weight: 645;
@@ -109,14 +115,37 @@
                     }
                 }
             }
-            .mesaj{
+
+            .mesaj {
                 padding: 35px 0 35px 0;
                 text-align: center;
                 color: #212529;
-                font-family: "Inter",Sans-serif;
+                font-family: "Inter", Sans-serif;
                 font-size: 12px;
             }
+        }
 
+        display: flex;
+        .avtive{
+            position: fixed;
+            bottom: 15%;
+            right: 5%;
+            z-index: 50;
+            button {
+                width: 40px;
+                height: 40px;
+                background: none;
+                border-radius: 50%;
+                border: 2px solid #5842BC;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                cursor: pointer;
+    
+                .icon {
+                    color: #5842BC;
+                }
+            }
         }
     }
 }

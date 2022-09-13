@@ -71,7 +71,7 @@
                             padding: 15px 15px 10px 15px;
                             font-weight: 700;
                             font-size: 14px;
-                           
+                            box-shadow:  none;
                         }
 
                         button:not(.collapsed) {
@@ -79,6 +79,7 @@
                             border-radius: 7px 7px 0 0;
                             color: #4a00e1;
                             padding: 15px 15px;
+                               
                          }
                         .accordion-body {
                             background-color: #F4F2FB;
@@ -105,6 +106,7 @@
 
                 &:hover {
                     background: #A44CEE;
+                    transition: ease .5s;
                 }
 
             }

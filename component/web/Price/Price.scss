@@ -150,8 +150,10 @@
                         font-weight: 700;
                         line-height: 1.7em;
                         &:hover {
+                           
                             background: #5842BC;
                             color:white;
+                            transition: ease 1s;
                         }
                     }
                 }
@@ -263,6 +265,7 @@
                         &:hover {
                             background: #A44CEE;
                             border: #A44CEE;
+                            transition: ease .5s;
                         }
                     }
                 }

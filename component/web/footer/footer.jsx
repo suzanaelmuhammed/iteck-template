@@ -2,6 +2,11 @@ import React from 'react';
 import { Row, Col, Container } from 'react-bootstrap';
 import { FaApple, FaGooglePlay } from "react-icons/fa";
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faChevronUp } from '@fortawesome/free-solid-svg-icons';
+
+import Link from 'next/link';
+
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 
@@ -37,7 +42,7 @@ export default function Footer() {
                         <section className='page-list'>
                             <Navbar className='navbar' expand="lg">
                                 <Navbar.Brand href="#" className='navbar-logo' >
-                                    <Image 
+                                    <Image
                                         src="/image/iteck-logo-1.png"
                                         alt=""
                                         width={170}
@@ -67,6 +72,14 @@ export default function Footer() {
                         </section>
                     </div>
                 </Container>
+
+                <a href='#' className='fixed avtive' >
+                    <button className='btn'>
+                    <FontAwesomeIcon icon={faChevronUp} className='icon' />
+                    </button>
+
+                </a>
+                
             </div>
         </div>
     )

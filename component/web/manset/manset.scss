@@ -49,23 +49,24 @@
             margin-bottom: 100px;
 
             .download-btn {
-                button{
+                button {
                     background: #5842BC;
                     font-size: 10px;
-                font-weight: 750;
-                color: #FFF;
-                border-radius: 50px;
-                height: 40px;
-                padding: 8px 12px;
-                margin-right: 20px;
-                border: none;
-                cursor: pointer;
+                    font-weight: 750;
+                    color: #FFF;
+                    border-radius: 50px;
+                    height: 40px;
+                    padding: 8px 12px;
+                    margin-right: 20px;
+                    border: none;
+                    cursor: pointer;
 
-                &:hover{
-                    background: #A44CEE;
+                    &:hover {
+                        background: #A44CEE;
+                        transition: ease .5s;
+                    }
                 }
-                }
-                
+
                 .icon {
                     width: 10px;
                     height: 10px;
@@ -82,22 +83,24 @@
             }
 
             .play-btn {
-                button{
+                button {
                     border: none;
                     background: none;
+
                     .play {
                         display: flex;
                         flex-direction: row;
                         margin-right: 10px;
-                       
+
                         cursor: pointer;
+
                         .play-icon {
                             height: 50px;
                             width: 50px;
                             color: #5842BC;
                             font-size: 30px;
                         }
-    
+
                         .play-span {
                             font-size: 13px;
                             text-transform: uppercase;
@@ -105,12 +108,12 @@
                             line-height: 1.7em;
                             margin-top: 10px;
                         }
-    
-                       
+
+
                     }
-    
+
                 }
-                
+
             }
 
         }

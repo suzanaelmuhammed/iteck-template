@@ -42,6 +42,11 @@
         }
 
         .support-accordion {
+            .accordion-button:focus {
+                border-color:none;
+                outline: 0;
+                box-shadow: 0;
+              }
             .accordion-item {
                 border: none;
                 border-radius: none;
@@ -56,8 +61,7 @@
                         font-weight: 700;
                         font-size: 14px;
                         border-bottom: 1px solid #9995;
-
-                       
+                        box-shadow:  none;
                 }
                 
 
